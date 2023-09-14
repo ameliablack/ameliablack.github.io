@@ -42,7 +42,7 @@ body {
       rgba(0, 0, 0, 0) 0,
       rgba(0, 0, 0, 0.3) 50%,
       rgba(0, 0, 0, 0) 100%);
-    background-attachment: fixed;
+  background-attachment: fixed;
   background-size: auto 5px;
   z-index: 1;
 }
@@ -76,10 +76,8 @@ body {
 
 .terminal {
   box-sizing: inherit;
-  height: 100%;
   width: 100%;
-  max-width: 100%;
-  padding: 4rem;
+  padding: 4rem 1rem;
   text-transform: uppercase;
 }
 
@@ -139,5 +137,12 @@ h1, h2, h3 {
   line-height: .9;
 }
 
-
+@media (max-width: 768px) {
+    body {
+      font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+    .terminal {
+      padding: 2rem 1rem; /* Adjust padding for smaller screens */
+    }
+  }
 
