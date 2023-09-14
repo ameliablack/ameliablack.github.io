@@ -122,6 +122,16 @@ h1, h2, h3 {
   line-height: 0.9;
 }
 
+@media (orientation: portrait) {
+  .orientation:after {
+    content: " Portrait.";
+  }
+}
+@media (orientation: landscape) {
+  .orientation:after {
+    content: " Landscape.";
+  }
+}
 @media (max-width: 768px) {
   body {
     font-size: 0.9rem;
