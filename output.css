@@ -11,7 +11,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Inconsolata", Helvetica, sans-serif;
-  font-size: 1.5rem;
+  font-size: 100%;
   color: rgba(128, 255, 128, 0.8);
   text-shadow: 0 0 1ex rgba(51, 255, 51, 0.4), 0 0 2px rgba(255, 255, 255, 0.8);
 }
@@ -66,7 +66,7 @@ body {
 .terminal {
   box-sizing: inherit;
   height: 100%;
-  width: 1000px;
+  width: 100%;
   max-width: 100%;
   padding: 4rem;
   text-transform: uppercase;
@@ -120,17 +120,6 @@ p {
 
 h1, h2, h3 {
   line-height: 0.9;
-}
-
-@media (orientation: portrait) {
-  .orientation:after {
-    content: " Portrait.";
-  }
-}
-@media (orientation: landscape) {
-  .orientation:after {
-    content: " Landscape.";
-  }
 }
 
 /*# sourceMappingURL=output.css.map */
