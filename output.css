@@ -132,11 +132,5 @@ h1, h2, h3 {
     content: " Landscape.";
   }
 }
-@media (max-width: 768px) {
-  body {
-    font-size: 0.9rem;
-    line-height: 0.9;
-  }
-}
 
 /*# sourceMappingURL=output.css.map */
