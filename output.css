@@ -81,11 +81,10 @@ body {
   text-shadow: 0 0 1px rgba(51, 255, 51, 0.4), 0 0 2px rgba(255, 255, 255, 0.8);
 }
 
-.output::before {
+/*.output::before {
   content: "> ";
 }
 
-/*
 .input {
   color: rgba(192, 255, 192, 0.8);
   text-shadow:
@@ -115,7 +114,8 @@ a::after {
 }
 
 p {
-  line-height: 0.9;
+  line-height: 1.4;
+  font-size: 1.5;
   color: rgba(128, 255, 128, 0.8);
   text-shadow: 0 0 1px rgba(51, 255, 51, 0.4), 0 0 2px rgba(255, 255, 255, 0.8);
   white-space: normal;
@@ -123,7 +123,7 @@ p {
 }
 
 h1, h2, h3 {
-  line-height: 0.9;
+  line-height: 1.4;
 }
 
 @media (max-width: 768px) {
