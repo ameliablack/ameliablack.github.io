@@ -1,5 +1,3 @@
-# ameliablack.github.io
-
 # My Personal Website
 
 Welcome to my personal website! This repository contains the code and assets for my website. Feel free to explore and learn more about me.
