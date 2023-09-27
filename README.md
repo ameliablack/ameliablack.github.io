@@ -2,7 +2,10 @@
 
 Welcome to my personal website! This repository contains the code and assets for my website. Feel free to explore and learn more about me.
 
-![Website Preview](resume.jpg)
+
+<div align="center">
+  <img src="resume.jpg" alt="Website Preview" width="600">
+</div>
 
 ## Table of Contents
 - [Description](#description)
